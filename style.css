@@ -1,3 +1,7 @@
+/*=============================================================================================================
+        HEADER
+=============================================================================================================*/
+
 * {
     margin:0px;
     padding:0;
@@ -6,9 +10,21 @@
 
 body{
     font-family: 'Titillium Web', sans-serif;
+    background-color: aqua;
+    margin-top: 1rem;
+    
+}
+.container-header{
+    width: 90%;
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    padding:1rem;
+    background-color:white;
+    border-radius:20px;
 }
 header {
-    width:90%;
+    width: 100%;
     display:flex;
     margin:auto;
     align-items:center;
@@ -51,4 +67,11 @@ justify-content: flex-end;
 .cart-image {
     height:100px;
     width:100px;
+}
+/*=============================================================================================================
+       Main
+=============================================================================================================*/
+
+main{
+    
 }
