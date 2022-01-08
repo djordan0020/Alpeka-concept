@@ -1,5 +1,5 @@
 /*=============================================================================================================
-        HEADER
+        BODY/RESETS
 =============================================================================================================*/
 
 * {
@@ -10,10 +10,14 @@
 
 body{
     font-family: 'Titillium Web', sans-serif;
-    background-color: aqua;
+    background:linear-gradient(to right,rgba(43,207,252,0.2), rgba(43,207,252,1));
     margin-top: 1rem;
     
 }
+/*=============================================================================================================
+        HEADER
+=============================================================================================================*/
+
 .container-header{
     width: 90%;
     display:flex;
@@ -32,7 +36,7 @@ header {
 }
 .logo-container,
 .nav-links,
-.cart {
+.sales {
 display:flex;
 }
 .image1 {
@@ -40,38 +44,44 @@ display:flex;
     width:100px;
 }
 .logo-container {
-    flex:1;
     align-items:center;
 }
 .logo-text {
     font-size:30px;
 }
 nav {
-    flex:2;
     text-align:center;
+    flex:2;
 }
 .nav-links {
-    justify-content:space-around;
+    
+    justify-content:space-evenly;
     list-style:none;
 }
 .link {
 text-decoration:none;
 font-size:20px;
 color:black;
-
 }
-.cart {
-flex:1;
-justify-content: flex-end;
+.card{
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    padding:1rem;
+    background-color:aqua;
+    border-radius:20px;
 }
-.cart-image {
-    height:100px;
-    width:100px;
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 /*=============================================================================================================
        Main
 =============================================================================================================*/
 
 main{
-    
+    min-height: 100vh;
+    background-color:white;
 }
